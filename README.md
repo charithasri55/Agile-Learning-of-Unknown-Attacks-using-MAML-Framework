@@ -1,89 +1,101 @@
-# 🚀 Cyberattack Detection using HAN, MAML & QAOA
+# 🚀 Intrusion Detection using MAML with QAOA
 
 ## 📌 Project Description
-This project focuses on detecting cyberattacks in IoT and network environments using advanced machine learning and deep learning techniques.
+This project focuses on building an advanced **Intrusion Detection System (IDS)** using multiple machine learning and optimization techniques such as:
 
-It combines:
-- Hierarchical Attention Network (HAN) with QKV Attention  
-- Model-Agnostic Meta-Learning (MAML)  
-- Quantum Approximate Optimization Algorithm (QAOA)  
+- Model-Agnostic Meta-Learning (MAML)
+- Quantum Approximate Optimization Algorithm (QAOA)
+- Hyperparameter Tuning (HT)
 
-The models are evaluated on multiple benchmark datasets to achieve high detection accuracy and robustness.
+The system is evaluated on benchmark cybersecurity datasets to detect malicious network traffic with high accuracy.
 
 ---
 
 ## 🎯 Objectives
-- Develop an efficient intrusion detection system  
-- Apply deep learning and meta-learning techniques  
-- Optimize performance using QAOA  
-- Achieve high accuracy (>98%)  
-- Compare results across multiple datasets  
-
----
-
-## 🧠 Models Used
-- HAN with QKV Attention  
-- MAML (Meta-Learning Model)  
-- QAOA-based Optimization  
-- Hybrid Models (HT + QAOA)
+- Develop a robust intrusion detection system  
+- Apply meta-learning (MAML) for fast adaptation  
+- Use QAOA for optimization  
+- Compare performance across datasets  
+- Achieve high accuracy and consistency (>98%)  
 
 ---
 
 ## 📂 Project Structure
 ```
-Cyberattack-Detection-Project
-├── HAN with QKV UI v2.ipynb
-├── HAN_QKV_BOT_IOT_Final.ipynb
-├── HAN_QKV_TON_IOT_Final.ipynb
+Intrusion-Detection-Project
 ├── MAML_UNSW-NB15.ipynb
 ├── MAML_CICIDS2017.ipynb
 ├── UNSW_QAOA.ipynb
 ├── CICIDS2017_QAOA.ipynb
-├── CICIDS_QAOA_HT.ipynb
 ├── UNSW_HT(QAOA).ipynb
+├── CICIDS_QAOA_HT.ipynb
 └── README.md
 ```
 
 ---
 
 ## 📊 Datasets Used
-- BoT-IoT Dataset  
-- TON-IoT Dataset  
-- UNSW-NB15 Dataset  
-- CICIDS2017 Dataset  
+
+### 🔹 UNSW-NB15 Dataset
+- Modern network intrusion dataset  
+- Contains normal and attack traffic  
+
+### 🔹 CICIDS2017 Dataset
+- Real-world network traffic dataset  
+- Includes multiple attack types  
+
+---
+
+## 🧠 Techniques Used
+
+### 1. MAML (Model-Agnostic Meta-Learning)
+- Enables fast learning with fewer samples  
+- Improves generalization for unseen attacks  
+
+### 2. QAOA (Quantum Approximate Optimization Algorithm)
+- Used for optimization of model parameters  
+- Enhances performance and convergence  
+
+### 3. Hyperparameter Tuning (HT)
+- Combines machine learning with optimization  
+- Improves detection accuracy and stability  
 
 ---
 
 ## ⚙️ Technologies Used
 - Python  
-- TensorFlow / Keras  
-- NumPy  
-- Pandas  
+- TensorFlow / PyTorch  
+- NumPy & Pandas  
 - Scikit-learn  
 - Matplotlib  
 
 ---
 
-## ▶️ How to Run
+## ▶️ How to Run the Project
 
 1. Clone the repository:
 ```
-  git clone https://github.com/charithasri55/Agile-Learning-of-Unknown-Attacks-using-MAML-Framework.git
+git clone https://github.com/charithasri55/Agile-Learning-of-Unknown-Attacks-using-MAML-Framework.git
 ```
 
-2. Open the project in VS Code or Jupyter Notebook  
+2. Open Jupyter Notebook or VS Code  
 
-3. Update dataset paths in the notebooks  
+3. Load dataset paths correctly in each notebook  
 
-4. Run any notebook file:
+4. Run the notebooks:
 ```
-  HAN_QKV_BOT_IOT_Final.ipynb
-  MAML_CICIDS2017.ipynb
-  UNSW_QAOA.ipynb
+MAML_UNSW-NB15.ipynb
+MAML_CICIDS2017.ipynb
+UNSW_QAOA.ipynb
+CICIDS2017_QAOA.ipynb
+UNSW_HT(QAOA).ipynb
+CICIDS_QAOA_HT.ipynb
 ```
+
 ---
 
 ## 📈 Performance Metrics
+The system evaluates performance using:
 - Accuracy  
 - Precision  
 - Recall  
@@ -95,11 +107,12 @@ Cyberattack-Detection-Project
 ---
 
 ## 📌 Results
-- Achieves high accuracy (>98%)  
+- Achieves **high accuracy (>98%)**  
 - Consistent performance across datasets  
-- Improved detection using attention and optimization techniques  
+- Improved detection using hyperparameter Tuning and optimization techniques  
 
 ---
+
 
 ## 👩‍💻 Author
 **Charitha Sri**
